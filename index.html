@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"
+        integrity="sha512-AQMSn1qO6KN85GOfvH6BWJk46LhlvepblftLHzAv1cdIyTWPBKHX+r+NOXVVw6+XQpeW4LJk/GTmoP48FLvblQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>App minha selfie</title>
+</head>
+
+<body>
+    <a href="" id="link" download="eu.png"></a>
+    <h1>App Selfie por voz</h1>
+    <br>
+    <hr>
+    <h3 style="color: red;">Pressione permitir assim que o pop-up for exibido. depois de dar um comando de voz. </h3>
+    <b>Sua saída de voz:</b>
+    <br>
+    <textarea id="textbox" id="" cols="30" rows="10"></textarea>
+    <br>
+    <button onclick="start()">Iniciar</button>
+    <br>
+    <p>Pressione o botão iniciar</p>
+    <br>
+    <b>Sua Webcam:</b>
+    <div id ="camera"></div>
+    <br>
+    <b>Sua selfie será exibida aqui:</b>
+    <div id="result"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
